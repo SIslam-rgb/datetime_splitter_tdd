@@ -10,4 +10,4 @@ def datetime_splitter(start,end):
 
     rows_needed = (end.date() - start.date()).days
 
-    return rows_needed
+    return rows_needed + 1
